@@ -1,71 +1,173 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>Tejus Sanly - Web Technology</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        #para1 {
+            text-align: right;
+            color: white;
+        }
+
+        p {
+            font-family: Verdana;
+            font-size: 20px;
+            color: red;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
-<body bgcolor="black">
-<font color="lime">
 
-<h1>Tejus Sanly</h1>
-<h2>Studying in RNU</h2>
-<p>I came to latvia in 2023. Doing my 6th semester now. I have 8 subjects this semester. This is my winter semester. </p>
+<body>
 
-<h2>Education</h2>
+    <!-- First HTML Section -->
+
+    <h1 id="para1">Tejus Sanly</h1>
+
+    <h1 style="color: black; text-align: center;">Tejus Sanly</h1>
+    <h1 style="color: black; text-align: center;">Tejus Sanly</h1>
+
+    <h2 style="color: blue; text-align: center;">Tejus Sanly</h2>
+    <h2 style="color: blue; text-align: center;">Tejus Sanly</h2>
+
+    <p style="color: green; text-align: center;">Web Technology</p>
+    <p style="color: green; text-align: center;">Web Technology</p>
+    <p style="color: green; text-align: center;">Web Technology</p>
+
+    <p id="para1">Web Technology</p>
+    <p id="para1">Web Technology</p>
+    <p id="para1">Web Technology</p>
+
+    <p>Web Technology</p>
+    <p>Web Technology</p>
+    <p>Web Technology</p>
+    <p>Web Technology</p>
+
+    <hr>
+
+    <p>
+        Im doing my 6th semester in RNU studying Computer systems.
+    </p>
 
 
-<h2>Higher Secondary Degree</h2>
+    <!-- Second HTML Section -->
 
-<ul>
-<li>Chemistry = 85</li>
-<p>could score higher</p>
-<li>biology = 99</li>
-<p>very good<p>
-<li>physics = 80</li>
-<p>good<p>
-</ul>
+    <hr>
 
-<ol>
-<li>degree</li>
-<li>1st year</li>
-<ol type="I">
-<li> web technology = 8</li>
-<ol type="a">
-<li> good</li>
-</ol>
-</ol>
+    <div style="background-color: black; color: lime; padding: 20px;">
+
+        <h1>Tejus Sanly</h1>
+
+        <h2>Studying in RNU</h2>
+
+        <p>
+            I came to Latvia in 2023. Doing my 6th semester now.
+            I have 8 subjects this semester. This is my winter semester.
+        </p>
+
+        <h2>Education</h2>
+
+        <h2>Higher Secondary Degree</h2>
+
+        <ul>
+            <li>Chemistry = 85</li>
+            <p>Could score higher</p>
+
+            <li>Biology = 99</li>
+            <p>Very good</p>
+
+            <li>Physics = 80</li>
+            <p>Good</p>
+        </ul>
+
+        <ol>
+            <li>Degree</li>
+
+            <li>1st year</li>
+            <ol type="I">
+                <li>Web Technology = 8</li>
+                <ol type="a">
+                    <li>Good</li>
+                </ol>
+            </ol>
+
+            <li>2nd year</li>
+            <ol type="I">
+                <li>Blockchain Technologies = 10</li>
+                <ol type="a">
+                    <li>Very good</li>
+                </ol>
+            </ol>
+
+            <li>3rd year</li>
+            <ol type="I">
+                <li>Data Bases = 10</li>
+                <ol type="a">
+                    <li>Very good</li>
+                </ol>
+            </ol>
+        </ol>
+
+        <hr>
+
+        <h3>Interesting Topic</h3>
+
+        <p>
+            <strong>AI Overview</strong>
+        </p>
+
+        <p>
+            Agentic AI is an exciting topic where artificial intelligence
+            goes beyond simple text or image generation to autonomously
+            plan, use tools, and complete multi-step tasks on its own.
+        </p>
+
+        <p>
+            <strong>What is Agentic AI?</strong>
+        </p>
+
+        <p>
+            <strong>Autonomous Action:</strong>
+            Unlike standard chatbots that just answer questions when prompted,
+            agents can break a large goal into smaller steps and execute them.
+        </p>
+
+        <p>
+            <strong>Tool Use:</strong>
+            These systems can browse the web, write and run computer code,
+            open apps, and interact with external software to solve problems.
+        </p>
+
+        <p>
+            <strong>Self-Correction:</strong>
+            Agents check their own work, fix errors in their code or logic,
+            and try a different approach if the first attempt fails.
+        </p>
+
+        <a href="https://www.immerse.education/resources-beyond-the-syllabus/100-ideas-for-research-projects-in-artificial-intelligence">
+            Artificial Intelligence
+        </a>
+
+    </div>
 
 
+    <!-- Third HTML Section -->
 
-<li>2nd year</li>
-<ol type="I">
-<li> Blockchain technologies = 10</li>
-<ol type="a">
-<li> very good</li>
-</ol>
-</ol>
+    <hr>
 
-<li>3rd year</li>
-<ol type="I">
-<li> Data Bases = 10</li>
-<ol type="a">
-<li> very good</li>
-</ol>
-</ol>
-</ol>
--------------------------------------------------------------------------------------------------------------------------------------------
+    <h2>Useful Link</h2>
 
-<h3> Interesting topic </h3>
-
-<p>AI Overview
-        Agentic AI is an exciting topic where artificial intelligence goes beyond simple text or image generation to autonomously plan, use tools, and complete multi-step tasks on its own.
-What is Agentic AI?
- Autonomous Action: Unlike standard chatbots that just answer questions when prompted, agents can break a large goal into smaller steps and execute them.
- Tool Use: These systems can browse the web, write and run computer code, open apps, and interact with external software to solve problems.
- Self-Correction: Agents check their own work, fix errors in their code or logic, and try a different approach if the first attempt fails.
- <a href="https://www.immerse.education/resources-beyond-the-syllabus/100-ideas-for-research-projects-in-artificial-intelligence"> Artificial intelligence</a>
-
+    <a href="https://www.youtube.com/">
+        Click here to visit YouTube
+    </a>
 
 </body>
 </html>
-
 
